@@ -16,7 +16,11 @@ app.get("/twitter", (req,res) => {
 app.get('/youtube', (req,res)=>{
     res.send("porn deko daba ke")
 })
-
+app.get('/randibua', (req,res)=>{
+    res.send(" aatmik ki bua ka rate: 1000 per shot")
+    res.send(" aakshant ki bua ka rate: 2000 per shot")
+    res.send(" bhonu ki bua ka rate: free")
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
