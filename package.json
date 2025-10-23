@@ -4,7 +4,8 @@
   "description": " mai nai batyunga",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'no build step needed'"
   },
   "keywords": [
     "node",
@@ -13,6 +14,7 @@
   "author": "Abhilash Singh",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
   }
